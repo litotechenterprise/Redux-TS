@@ -5,7 +5,7 @@ import { RepositoryList } from "./components";
 function App() {
   return (
     <Provider store={store}>
-      <div>
+      <div className="main">
         <h1>Search for a npm package</h1>
         <RepositoryList />
       </div>
